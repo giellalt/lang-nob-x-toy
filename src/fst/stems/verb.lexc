@@ -1,0 +1,14 @@
+LEXICON Verbs
+    spis Verb ; !to eat
+    kast Verb ; !to throw
+    heng Verb ; !to hang
+    ha Verb; !to have, put in front of a particple to create another present tense
+    vask Verb; !to have
+    snakk Verb; !to speak
+    dans Verb; !to dance
+    slapp Verb; !to relax
+    puss Verb; !to clean
+    smil Verb; !to smile
+LEXICON Verb
+    +V+Inf:e # ;
+    +V+Pres:er # ;
