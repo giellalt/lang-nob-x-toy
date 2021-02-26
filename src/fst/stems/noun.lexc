@@ -1,0 +1,15 @@
+LEXICON Nouns
+    bil Noun ; !car
+    mann Noun ; !man
+    katt Noun ; !cat
+    gutt Noun ; !boy
+    jent Noun ; !girl
+    vindu Noun ; !window
+    sted Noun ; !place
+    bok Noun ; !book 
+
+LEXICON Noun
+    +N+Sg: # ;
+    +N+Pl:er # ;
+
+

@@ -1,0 +1,20 @@
+Multichar_Symbols
+
+!Part of Speech
++N !Noun
++V !Verb
+
+!Number
++Sg !Singular
++Pl !Plural
++Inf !Infinitive
++Pres !Present
++Imper !Imperative
+
+LEXICON Root
+    Nouns  ;
+    Verbs ;
+
+
+
+
