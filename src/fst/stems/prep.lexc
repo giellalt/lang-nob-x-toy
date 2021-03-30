@@ -1,0 +1,19 @@
+LEXICON Prepostions
+    i Prepostion ; !in
+    andre Prepostion ; !other
+    og Prepostion ; !and
+    av Prepostion ; !of
+    som Prepostion ; !which
+    til Prepostion ; !to
+    på Prepostion ; !on
+    med Prepostion ; !with
+    er Prepostion ; !is/are
+    fra Prepostion ; !from
+    for Prepostion ; !for
+    også Prepostion ; !also
+    ved Prepostion ; !by
+    etter Prepostion ; !after, for, by
+
+
+LEXICON Prepostion
+    +P: # ;

@@ -1,15 +1,30 @@
 LEXICON Nouns
     bil Noun ; !car
-    mann Noun ; !man
     katt Noun ; !cat
     gutt Noun ; !boy
     jent Noun ; !girl
     vindu Noun ; !window
     sted Noun ; !place
     bok Noun ; !book 
+    lykkønskning Noun ; !best wish 
+    amasone ; !Amazon
+    kriger; !warrior
+    skal; !shell
+    opprinnelse; !origin
+    mytologi; !mythology
+    !!Special case
+    var Noun ; !spring
 
 LEXICON Noun
     +N+Sg: # ;
-    +N+Pl:er # ;
+    +N+neu: # ;
+    +N+neu+d+Sg:et # ;
+    +N+neu+d+Pl:a # ;
+    +N+msc+Pl:er # ;
+    +N+d+Pl:ne # ;
+    +N+msc+ind+Pl:e # ;
+
+!!€gt-norm: biler
+!!€ biler:       bil+N+Pl
 
 

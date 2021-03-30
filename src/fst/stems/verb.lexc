@@ -9,6 +9,13 @@ LEXICON Verbs
     slapp Verb; !to relax
     puss Verb; !to clean
     smil Verb; !to smile
+    bl Verb ; !
+    få Verb ; !to get
+    f Verb ; !to get (past form)
+
 LEXICON Verb
     +V+Inf:e # ;
     +V+Pres:er # ;
+    +V+Imp: # ;
+    +V+E+Pres:r # ;
+    +V+Past:ikke # ;

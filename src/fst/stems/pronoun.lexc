@@ -1,0 +1,11 @@
+LEXICON Pronouns
+    den Pronoun ; !it
+    dem Pronoun ; !them
+    si Pronoun ; !reflexive
+
+LEXICON Noun
+    +pN: # ;
+    +pN+msc:n # ;
+    +pN+fem: # ;
+    +pN+neu:tt # ;
+    +pN+Pl:ne # ;

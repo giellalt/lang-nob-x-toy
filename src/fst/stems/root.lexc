@@ -3,17 +3,43 @@ Multichar_Symbols
 !Part of Speech
 +N !Noun
 +V !Verb
++P !Preposition
++Num !Number
++Art !Article
++pN !Pronoun
++msc !Masculine
++fem !Femimine
++neu !Neuter
++adj !adjective
++adV !Adverb
++conj !Conjuction
 
 !Number
 +Sg !Singular
 +Pl !Plural
++d ! definite
++ind ! indefinite 
+
+
+!Form
 +Inf !Infinitive
 +Pres !Present
 +Imper !Part
++Imp !Imperative
++E !Exceptions
++Past !Past
 
 LEXICON Root
     Nouns  ;
     Verbs ;
+    Prepositions ;
+    Numbers ;
+    Articles ;
+    Pronouns ;
+    Adjectives ;
+    Adverbs ;
+    Conjuctions ;
+
 
 
 

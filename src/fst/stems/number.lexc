@@ -1,0 +1,5 @@
+LEXICON Numbers
+   en Number ; !one
+
+LEXICON Noun
+    +Num: # ;
