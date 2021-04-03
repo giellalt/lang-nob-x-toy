@@ -1,6 +1,0 @@
-LEXICON Articles
-    de Article ; !the
-    at Article: !that
-
-LEXICON Article
-    +Art: # ;

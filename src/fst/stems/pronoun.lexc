@@ -2,10 +2,16 @@ LEXICON Pronouns
     den Pronoun ; !it
     dem Pronoun ; !them
     si Pronoun ; !reflexive
+    denne: Pronoun_denne ;
 
-LEXICON Noun
-    +pN: # ;
+LEXICON Pronoun
+    +Pn: # ;
     +pN+msc:n # ;
     +pN+fem: # ;
     +pN+neu:tt # ;
     +pN+Pl:ne # ;
+
+LEXICON Pronoun_denne
+    +Pn:denne # ;
+    +Pn+Neu:dette # ;
+    +Pn+Pl:disse # ;

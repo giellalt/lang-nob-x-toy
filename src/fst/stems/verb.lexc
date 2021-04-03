@@ -10,12 +10,15 @@ LEXICON Verbs
     puss Verb; !to clean
     smil Verb; !to smile
     bl Verb ; !
-    få Verb ; !to get
-    f Verb ; !to get (past form)
-
+    få: Verb_Få ; !to get
+    
 LEXICON Verb
     +V+Inf:e # ;
     +V+Pres:er # ;
     +V+Imp: # ;
     +V+E+Pres:r # ;
-    +V+Past:ikke # ;
+    
+
+LEXICON Verb_Få
++V+Inf: få
++V+Past: fikke # ;

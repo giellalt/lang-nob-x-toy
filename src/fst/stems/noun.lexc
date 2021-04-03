@@ -1,28 +1,69 @@
 LEXICON Nouns
-    bil Noun ; !car
-    katt Noun ; !cat
-    gutt Noun ; !boy
-    jent Noun ; !girl
-    vindu Noun ; !window
-    sted Noun ; !place
-    bok Noun ; !book 
-    lykkønskning Noun ; !best wish 
-    amasone ; !Amazon
-    kriger; !warrior
-    skal; !shell
-    opprinnelse; !origin
-    mytologi; !mythology
-    !!Special case
-    var Noun ; !spring
+    bil Noun_Msc_Reg ; !car
+    katt Noun_Msc_Reg ; !cat
+    gutt Noun_Msc_Reg ; !boy
+    jent Noun_EtoA ; !girl
+    vindu Noun_Vindu ; !window
+    sted Noun_Neu_Reg ; !place
+    bok: Noun_Bok ; !book 
+    lykkønskning Noun_lykkønskning ; !best wish 
+    amasone Noun_EtoA; !Amazon
+    kriger Noun_Kriger; !warrior
+    skal Noun_Skal; !shell
+    opprinnels Noun_Msc_Reg; !origin
+    mytologi Noun_Msc_Reg; !mythology
+    var Noun_Msc_Reg ; !spring
 
-LEXICON Noun
+LEXICON Noun_Msc_Reg
+    +N+Msc+Sg: # ;
+    +N+Msc+Sg+Def:en # ;
+    +N+Msc+Pl+Ind:er # ;
+    +N+Msc+Pl+Def:ene # ;
+
+LEXICON Noun_EtoA
+    +N+Sg:e # ;
+    +N+Fem+Sg+Def:a # ;
+    +N+Msc+Sg+Def:en # ;
+    +N+Pl+Ind:er # ;
+    +N+Pl+Def:ene # ;
+
+LEXICON Noun_Neu_Reg
+    +N+Neu: # ;
+    +N+Neu+Sg+Def:et # ;
+    +N+Neu+Pl+Ind:er # ;
+    +N+Neu+Pl+Def:ene # ;
+
+LEXICON Noun_Vindu
+    +N+Neu: # ;
+    +N+Neu+Sg+Def:et # ;
+    +N+Neu+Pl+Ind:er # ;
+    +N+Neu+Pl+Def:a # ;
+    +N+Neu+Pl+Def:ene # ;
+
+LEXICON Noun_Bok
+    +N+Sg: bok # ;
+    +N+Sg+Def: boka # ;
+    +N+Sg+Def: boken # ;
+    +N+Pl+Ind: bøker # ;
+    +N+Pl+Def: bøkene # ;
+
+LEXICON Noun_lykkønskning
     +N+Sg: # ;
-    +N+neu: # ;
-    +N+neu+d+Sg:et # ;
-    +N+neu+d+Pl:a # ;
-    +N+msc+Pl:er # ;
-    +N+d+Pl:ne # ;
-    +N+msc+ind+Pl:e # ;
+    +N+Pl:er # ;
+
+LEXICON Noun_Kriger
+    +N+Msc+Sg: # ;
+    +N+Msc+Sg+Def:en # ;
+    +N+Msc+Pl+Ind:e # ;
+    +N+Msc+Pl+Def:ne # ;
+
+LEXICON Noun_Skal
+    +N+Neu+Sg: # ;
+    +N+Neu+Sg+Def:et # ;
+    +N+Neu+Pl+Ind: # ;
+    +N+Neu+Pl+Def:a # ;
+
+   
 
 !!€gt-norm: biler
 !!€ biler:       bil+N+Pl

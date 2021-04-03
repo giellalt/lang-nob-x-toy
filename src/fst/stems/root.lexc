@@ -6,18 +6,18 @@ Multichar_Symbols
 +P !Preposition
 +Num !Number
 +Art !Article
-+pN !Pronoun
-+msc !Masculine
-+fem !Femimine
-+neu !Neuter
-+adj !adjective
-+adV !Adverb
-+conj !Conjuction
++Pn !Pronoun
++Msc !Masculine
++Fem !Femimine
++Neu !Neuter
++Adj !adjective
++Adv !Adverb
++Con !Conjuction
 
 !Number
 +Sg !Singular
 +Pl !Plural
-+d ! definite
++Def ! definite
 +ind ! indefinite 
 
 
@@ -26,7 +26,6 @@ Multichar_Symbols
 +Pres !Present
 +Imper !Part
 +Imp !Imperative
-+E !Exceptions
 +Past !Past
 
 LEXICON Root
