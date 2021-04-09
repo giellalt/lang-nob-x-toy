@@ -1,24 +1,73 @@
 LEXICON Verbs
-    spis Verb ; !to eat
-    kast Verb ; !to throw
-    heng Verb ; !to hang
-    ha Verb; !to have, put in front of a particple to create another present tense
-    vask Verb; !to have
-    snakk Verb; !to speak
-    dans Verb; !to dance
-    slapp Verb; !to relax
-    puss Verb; !to clean
-    smil Verb; !to smile
-    bl Verb ; !
+    spis Verb_Reg ; !to eat
+    kast Verb_Reg ; !to throw
+    heng Verb_Reg ; !to hang
+    ha Verb_Reg; !to have, put in front of a particple to create another present tense
+    vask Verb_Reg; !to have
+    snakk Verb_Reg; !to speak
+    dans Verb_Reg; !to dance
+    slapp Verb_Reg; !to relax
+    puss Verb_Reg; !to clean
+    smil Verb_Reg; !to smile
+    bl Verb_Reg ; !
     få: Verb_Få ; !to get
+    si: Verb_Si ; !to say
+    men: Verb_Reg ; !to mean, to think
+    bl Verb_bl : !to be, remain
+    kal Verb_kalle ; !to call, to name, to shout
+    fremstil Verb_fremstille ; !to represent, act, present
+    finnes:f Verb_finnes ; !to be, exist, occur, be found
+    bruk Verb_Reg ; !to use
     
-LEXICON Verb
+LEXICON Verb_Reg
     +V+Inf:e # ;
     +V+Pres:er # ;
     +V+Imp: # ;
-    +V+E+Pres:r # ;
+    +V+Pass:es # ;
+    +V+Sim+Past:te # ;
+    +V+Past+Prt:t # ;
+    +V+Pres+Prt:ende # ;
     
-
 LEXICON Verb_Få
-+V+Inf: få
-+V+Past: fikke # ;
+    +V+Inf:få # ;
+    +V+Past:fikke # ;
+
+LEXICON Verb_Si
+    +V+Imp:si # ;
+    +V+Pres:sier # ;
+    +V+Past:sa # ;
+    +V+Past+Prt:sagt # ;
+    +V+Pres+Prt:siende # ;
+
+LEXICON Verb_bl  
+    +V:i # ;
+    +V+Imp:i # ;
+    +V+Pres:ir # ;
+    +V+Sim+Past:e # ;
+    +V+Sim+Past:ei # ;
+    +V+Past+Prt:itt # ;
+    +V+Pres+Prt:ivende # ;
+
+LEXICON Verb_kalle
+    +V:le # ;
+    +V+Pres:ler # ;
+    +V+Pass:les # ;
+    +V+Sim+Past:te # ;
+    +V+Past+Prt:t # ;
+    +V+Pres+Prt:lender # ;
+LEXICON Verb_fremstille
+    +V:le # ;
+    +V+Imp:l # ;
+    +V+Pres:ler # ;
+    +V+Pass:les # ;
+    +V+Sim+Past:te # ;
+    +V+Past+Prt:t # ;
+    +V+Pres+Prt:lende # ;
+
+LEXICON Verb_finnes
+    +V:innes # ;
+    +V+Pres:innes # ;
+    +V+Pres:ins # ;
+    +V+Sim+Past:antes # ;
+    +V+Sim+Past:ans # ;
+    +V+Past+Prt:unnes # ;

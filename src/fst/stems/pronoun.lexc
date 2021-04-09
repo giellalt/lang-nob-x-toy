@@ -1,17 +1,25 @@
 LEXICON Pronouns
-    den Pronoun ; !it
-    dem Pronoun ; !them
-    si Pronoun ; !reflexive
+    den Pronoun_Reg ; !it
+    dem Pronoun_Reg ; !them
+    si Pronoun_Reg ; !reflexive
     denne: Pronoun_denne ;
+    noen Pronoun ; !somebody,someone,some,any
+    ham Pronoun ; !him
+    flere Pronoun ; !more, several
+    deres Pronoun ; !their, theirs, your
 
-LEXICON Pronoun
+LEXICON Pronoun_Reg
     +Pn: # ;
-    +pN+msc:n # ;
-    +pN+fem: # ;
-    +pN+neu:tt # ;
-    +pN+Pl:ne # ;
+    +Pn+msc:n # ;
+    +Pn+fem: # ;
+    +Pn+neu:tt # ;
+    +Pn+Pl:ne # ;
+
 
 LEXICON Pronoun_denne
     +Pn:denne # ;
     +Pn+Neu:dette # ;
     +Pn+Pl:disse # ;
+
+LEXICON Pronoun
+    +Pn: # ;

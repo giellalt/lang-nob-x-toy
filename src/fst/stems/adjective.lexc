@@ -1,0 +1,20 @@
+LEXICON Adjectives
+   senere Adjective_Reg ; !sinewey
+   trolig Adjective_Reg ; !likely, probable
+   mange: Adjective_Mange ; !many
+   brukt Adjective_Brukt ; !used
+
+LEXICON Adjective_Reg
+    +Adj: # ;
+
+LEXICON Adjective_Mange
+   +Adj+Com:fler # ;
+   +Adj+Com:flere # ;
+   +Adj+Ind+Sup:flest # ;
+   +Adj+Def+Sup:fleste # ;
+
+LEXICON Adjective_Brukt
+   +Adj+Neu+Sg: # ;
+   +Adj+Neu+Sg+Def:e # ;
+   +Adj+Neu+Pl+Def:e # ;
+

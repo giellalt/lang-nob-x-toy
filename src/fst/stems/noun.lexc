@@ -7,12 +7,23 @@ LEXICON Nouns
     sted Noun_Neu_Reg ; !place
     bok: Noun_Bok ; !book 
     lykkønskning Noun_lykkønskning ; !best wish 
-    amasone Noun_EtoA; !Amazon
-    kriger Noun_Kriger; !warrior
-    skal Noun_Skal; !shell
-    opprinnels Noun_Msc_Reg; !origin
-    mytologi Noun_Msc_Reg; !mythology
+    amasone Noun_EtoA ; !Amazon
+    kriger Noun_Kriger ; !warrior
+    skal Noun_Skal ; !shell
+    opprinnels Noun_Msc_Reg ; !origin
+    mytologi Noun_Msc_Reg ; !mythology
     var Noun_Msc_Reg ; !spring
+    gudinn Noun_EtoA ; !goddess
+    sen Noun_Fem_Reg ; !sinew/tendon
+    kunst Noun_Msc_Reg ; !art
+    krig Noun_Msc_Reg ; !War
+    hann Noun_Msc_Reg ; !male
+    greker Noun_Kriger ; !Greek person
+    kamp Noun_Msc_Reg ; !fight, battle, match
+    histori Noun_EtoA ; !history, story
+    ham Noun_Ham ; !skin, slough
+    dronning Noun_dronning ; !queen
+    bryst Noun_Neu_Reg ; !chest, breast
 
 LEXICON Noun_Msc_Reg
     +N+Msc+Sg: # ;
@@ -20,8 +31,27 @@ LEXICON Noun_Msc_Reg
     +N+Msc+Pl+Ind:er # ;
     +N+Msc+Pl+Def:ene # ;
 
+LEXICON Noun_Ham
+    +N+Msc+Sg: # ;
+    +N+Msc+Sg+Def:men # ;
+    +N+Msc+Pl+Ind:mer # ;
+    +N+Msc+Pl+Def:mene # ;
+
+LEXICON Noun_Fem_Reg
+    +N+Fem+Sg: # ;
+    +N+Fem+Sg+Def:a # ;
+    +N+Fem+Pl+Ind:er # ;
+    +N+Fem+Pl+Def:ene # ;
+
 LEXICON Noun_EtoA
     +N+Sg:e # ;
+    +N+Fem+Sg+Def:a # ;
+    +N+Msc+Sg+Def:en # ;
+    +N+Pl+Ind:er # ;
+    +N+Pl+Def:ene # ;
+
+LEXICON Noun_dronning 
+    +N+Sg: # ;
     +N+Fem+Sg+Def:a # ;
     +N+Msc+Sg+Def:en # ;
     +N+Pl+Ind:er # ;

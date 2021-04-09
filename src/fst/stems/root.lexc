@@ -27,6 +27,11 @@ Multichar_Symbols
 +Imper !Part
 +Imp !Imperative
 +Past !Past
++Com !Comparative
++Sup !Superlative
++Prt !Participle
++Sim !Simple
++Pass !Passive
 
 LEXICON Root
     Nouns  ;

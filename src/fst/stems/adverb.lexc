@@ -1,0 +1,17 @@
+LEXICON Adverbs
+   ikke Adverb_Reg ; !not
+   ut Adverb_Reg ; !out
+   oft Adverb_ative ; !often/frequently
+   mest Adverb_Reg ; !most
+   over Adverb_Reg ; !over, across
+   trolig Adverb_Reg ; !probably, presumably
+   der Adverb_Reg ; !there
+   da Adverb_Reg ; !then
+
+LEXICON Adverb_Reg
+    +Adv: # ;
+
+LEXICON Adverb_ative
+    +Adv+Com:ere # ;
+    +Adv+Sup:est # ;
+    
