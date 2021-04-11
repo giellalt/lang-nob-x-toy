@@ -7,6 +7,8 @@ LEXICON Adverbs
    trolig Adverb_Reg ; !probably, presumably
    der Adverb_Reg ; !there
    da Adverb_Reg ; !then
+   så Adverb_Reg ; !so, as
+   opp Adverb_Reg ; !up
 
 LEXICON Adverb_Reg
     +Adv: # ;

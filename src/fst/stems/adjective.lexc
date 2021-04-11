@@ -3,6 +3,10 @@ LEXICON Adjectives
    trolig Adjective_Reg ; !likely, probable
    mange: Adjective_Mange ; !many
    brukt Adjective_Brukt ; !used
+   tidligere Adjective_Reg ; !former
+   st:or Adjective_stor ; !large, big, great
+   moderne Adjective_Reg ; !modern
+   kongelig Adjective_Brukt ; !royal
 
 LEXICON Adjective_Reg
     +Adj: # ;
@@ -17,4 +21,14 @@ LEXICON Adjective_Brukt
    +Adj+Neu+Sg: # ;
    +Adj+Neu+Sg+Def:e # ;
    +Adj+Neu+Pl+Def:e # ;
+
+LEXICON Adjective_stor
+   +Adj:or # ;
+   +Adj+Neu+Sg:ort # ;
+   +Adj+Neu+Sg+Def:ore # ;
+   +Adj+Neu+Pl+Def:ore # ;
+   +Adj+Neu+Com:ørre # ;
+   +Adj+Neu+Ind+Sup:ørst # ;
+   +Adj+Neu+Def+Sup:ørste # ;
+
 

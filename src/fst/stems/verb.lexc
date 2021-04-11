@@ -18,6 +18,12 @@ LEXICON Verbs
     fremstil Verb_fremstille ; !to represent, act, present
     finnes:f Verb_finnes ; !to be, exist, occur, be found
     bruk Verb_Reg ; !to use
+    være: Verb_Være ; !to be
+    s:se Verb_Se ; !to see
+    led Verb_lede ; !to lead
+    kom Verb_Kom ; !to come
+    k:kunner Verb_kunner ; !to can, could, know
+    invader Verb_invader ; !to invade
     
 LEXICON Verb_Reg
     +V+Inf:e # ;
@@ -38,6 +44,7 @@ LEXICON Verb_Si
     +V+Past:sa # ;
     +V+Past+Prt:sagt # ;
     +V+Pres+Prt:siende # ;
+    +V+Pass:sies # ;
 
 LEXICON Verb_bl  
     +V:i # ;
@@ -71,3 +78,50 @@ LEXICON Verb_finnes
     +V+Sim+Past:antes # ;
     +V+Sim+Past:ans # ;
     +V+Past+Prt:unnes # ;
+
+LEXICON Verb_Være
+    +V:være # ;
+    +V+Imp:vær # ;
+    +V+Pres:er # ;
+    +V+Sim+Past:var # ;
+    +V+Past+Prt:vært # ;
+    +V+Pres+Prt:værende # ;
+
+LEXICON Verb_Se 
+    +V+Imp:e # ;
+    +V+Pres:er # ;
+    +V+Pass:es # ;
+    +V+Pass:ees # ;
+    +V+Sim+Past:å # ;
+    +V+Past+Prt:ett # ;
+    +V+Pres+Prt:eende # ;
+
+LEXICON Verb_lede
+    +V+Inf:e ;
+    +V+Imp: # ;
+    +V+Pres:er # ;
+    +V+Pass:es # ;
+    +V+Sim+Past:a # ;
+    +V+Past+Prt:et # ;
+    +V+Pres+Prt:ende # ;
+
+LEXICON Verb_Kom
+    +V+Inf:me ;
+    +V+Imp: # ;
+    +V+Pres:mer # ;
+    +V+Sim+Past: # ;
+    +V+Past+Prt:met # ;
+    +V+Pres+Prt:mende # ;
+
+LEXICON Verb_kunner 
+    +V+Pres:an # ;
+    +V+Sim+Past:unne # ;
+    +V+Past=Prt:unnet # ;
+
+LEXICON Verb_invader
+    +V+Inf:e # ;
+    +V+Pres:er # ;
+    +V+Imp: # ;
+    +V+Sim+Past:te # ;
+    +V+Past+Prt:t # ;
+    +V+Pres+Prt:ende # ;

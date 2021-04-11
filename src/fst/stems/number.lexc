@@ -1,5 +1,6 @@
 LEXICON Numbers
    en Number ; !one
+   to Number ; !two
 
 LEXICON Noun
     +Num: # ;

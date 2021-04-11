@@ -24,6 +24,13 @@ LEXICON Nouns
     ham Noun_Ham ; !skin, slough
     dronning Noun_dronning ; !queen
     bryst Noun_Neu_Reg ; !chest, breast
+    viser Noun_Kriger ; !a hand on a clock
+    vesen Noun_Skal ; !a being, nature, system
+    slutt Noun_Msc_Reg ; !end, ending, finish, close
+    slag Noun_Neu_Reg ; !hit, punch
+    skjold Noun_Neu_Reg ; !shield
+    sid Noun_EtoA ; !a page, side
+    områd Noun_Område ; !an area
 
 LEXICON Noun_Msc_Reg
     +N+Msc+Sg: # ;
@@ -92,6 +99,13 @@ LEXICON Noun_Skal
     +N+Neu+Sg+Def:et # ;
     +N+Neu+Pl+Ind: # ;
     +N+Neu+Pl+Def:a # ;
+
+LEXICON Noun_Område
+    +N+Neu:e # ;
+    +N+Neu+Sg+Def:et # ;
+    +N+Neu+Pl+Ind:er # ;
+    +N+Neu+Pl+Def:a # ;
+    +N+Neu+Pl+Def:ene # ;
 
    
 
