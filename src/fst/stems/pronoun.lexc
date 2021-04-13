@@ -7,6 +7,8 @@ LEXICON Pronouns
     ham Pronoun ; !him
     flere Pronoun ; !more, several
     deres Pronoun ; !their, theirs, your
+    vi Pronoun ; !we
+    selv Pronoun ; !self (put after another possessive word)
 
 LEXICON Pronoun_Reg
     +Pn: # ;

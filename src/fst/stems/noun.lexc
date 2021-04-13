@@ -31,6 +31,12 @@ LEXICON Nouns
     skjold Noun_Neu_Reg ; !shield
     sid Noun_EtoA ; !a page, side
     områd Noun_Område ; !an area
+    modell Noun_Msc_Reg ; !a model
+    kjempe Noun_EtoA ; !giant
+    hesterygg Noun_hesterygg ; !on horseback
+    gud Noun_Msc_Reg ; !god
+    gift Noun_EtoA ; !poison
+    foreteller Noun_Kriger ; !narrator, storyteller
 
 LEXICON Noun_Msc_Reg
     +N+Msc+Sg: # ;
@@ -106,6 +112,10 @@ LEXICON Noun_Område
     +N+Neu+Pl+Ind:er # ;
     +N+Neu+Pl+Def:a # ;
     +N+Neu+Pl+Def:ene # ;
+
+LEXICON Noun_hesterygg
+    +N+Sg: # ;
+    +N+Msc+Sg+Def:en # ;
 
    
 

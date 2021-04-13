@@ -24,6 +24,9 @@ LEXICON Verbs
     kom Verb_Kom ; !to come
     k:kunner Verb_kunner ; !to can, could, know
     invader Verb_invader ; !to invade
+    gift Verb_Gifte ; !to marry/wed
+    fort Verb_forteller ; !to recount, tell, narrate
+    dø Verb_Dø ; !to die
     
 LEXICON Verb_Reg
     +V+Inf:e # ;
@@ -125,3 +128,26 @@ LEXICON Verb_invader
     +V+Sim+Past:te # ;
     +V+Past+Prt:t # ;
     +V+Pres+Prt:ende # ;
+
+LEXICON Verb_Gifte
+    +V+Inf:e # ;
+    +V+Pres:er # ;
+    +V+Imp: # ;
+    +V+Sim+Past:et # ;
+    +V+Past+Prt:et # ;
+
+LEXICON Verb_forteller 
+    +V+Inf:elle # ;
+    +V+Pres:eller # ;
+    +V+Imp:ell # ;
+    +V+Pass:elles # ;
+    +V+Sim+Past:alte # ;
+    +V+Past+Prt:alt # ;
+    +V+Pres+Prt:ellende # ;
+
+LEXICON Verb_dø
+    +V+Imp: # ;
+    +V+Pres:r # ;
+    +V+Sim+Past:de # ;
+    +V+Past+Prt:dd # ;
+    ++Pres+Prt:ender # ;
