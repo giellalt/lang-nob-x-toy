@@ -9,6 +9,8 @@ LEXICON Pronouns
     deres Pronoun ; !their, theirs, your
     vi Pronoun ; !we
     selv Pronoun ; !self (put after another possessive word)
+    hans Pronoun ; !his
+    
 
 LEXICON Pronoun_Reg
     +Pn: # ;

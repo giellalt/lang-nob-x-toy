@@ -9,6 +9,7 @@ LEXICON Adverbs
    da Adverb_Reg ; !then
    så Adverb_Reg ; !so, as
    opp Adverb_Reg ; !up
+   fram Adverb_Reg ; !forward
 
 LEXICON Adverb_Reg
     +Adv: # ;

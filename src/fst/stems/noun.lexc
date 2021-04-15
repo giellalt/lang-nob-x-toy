@@ -37,6 +37,8 @@ LEXICON Nouns
     gud Noun_Msc_Reg ; !god
     gift Noun_EtoA ; !poison
     foreteller Noun_Kriger ; !narrator, storyteller
+    død Noun_hesterygg ; !death
+    dag Noun_Msc_Reg ; !day
 
 LEXICON Noun_Msc_Reg
     +N+Msc+Sg: # ;

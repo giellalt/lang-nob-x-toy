@@ -7,6 +7,8 @@ LEXICON Adjectives
    st:or Adjective_stor ; !large, big, great
    moderne Adjective_Reg ; !modern
    kongelig Adjective_Brukt ; !royal
+   gift Adjective_Brukt ; !married
+   første Adjective_Reg ; !first
 
 LEXICON Adjective_Reg
     +Adj: # ;
