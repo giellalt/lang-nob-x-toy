@@ -27,6 +27,8 @@ LEXICON Verbs
     gift Verb_Gifte ; !to marry/wed
     fort Verb_forteller ; !to recount, tell, narrate
     dø Verb_Dø ; !to die
+    ansette: Verb_Ansette ; !to employ
+    øk Verb_Reg ; !to increase
     
 LEXICON Verb_Reg
     +V+Inf:e # ;
@@ -151,3 +153,12 @@ LEXICON Verb_dø
     +V+Sim+Past:de # ;
     +V+Past+Prt:dd # ;
     ++Pres+Prt:ender # ;
+
+LEXICON Verb_Ansette
+    +V+Inf:ansette # ;
+    +V+Pres:ansetter # ;
+    +V+Imp:ansett # ;
+    +V+Pass:ansettes # ;
+    +V+Sim+Past:ansatte # ;
+    +V+Past+Prt:ansatt # ;
+    +V+Pres+Prt:ansettende # ;

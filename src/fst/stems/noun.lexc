@@ -39,6 +39,8 @@ LEXICON Nouns
     foreteller Noun_Kriger ; !narrator, storyteller
     død Noun_hesterygg ; !death
     dag Noun_Msc_Reg ; !day
+    år Noun_år ; !a year
+    våp Noun_våpen ; !a weapon
 
 LEXICON Noun_Msc_Reg
     +N+Msc+Sg: # ;
@@ -119,7 +121,20 @@ LEXICON Noun_hesterygg
     +N+Sg: # ;
     +N+Msc+Sg+Def:en # ;
 
-   
+LEXICON Noun_år
+    +N+Neu: # ;
+    +N+Neu+Sg+Def:et # ;
+    +N+Neu+Pl+Ind: # ;
+    +N+Neu+Pl+Def:a # ;
+    +N+Neu+Pl+Def:ene # ;
+
+LEXICON Noun_våpen 
+    +N+Neu:en # ;
+    +N+Neu+Sg+Def:enet # ;
+    +N+Neu+Pl+Ind:en # ;
+    +N+Neu+Pl+Def:na # ;
+    +N+Neu+Pl+Def:nene # ;
+
 
 !!€gt-norm: biler
 !!€ biler:       bil+N+Pl
