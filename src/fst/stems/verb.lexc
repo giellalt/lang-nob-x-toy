@@ -153,7 +153,6 @@ LEXICON Verb_dø
     +V+Sim+Past:de # ;
     +V+Past+Prt:dd # ;
     ++Pres+Prt:ender # ;
-<<<<<<< HEAD
 
 LEXICON Verb_Ansette
     +V+Inf:ansette # ;
@@ -163,5 +162,3 @@ LEXICON Verb_Ansette
     +V+Sim+Past:ansatte # ;
     +V+Past+Prt:ansatt # ;
     +V+Pres+Prt:ansettende # ;
-=======
->>>>>>> 9baaf95507c05d784117f74c76a1c56bd774ca90
