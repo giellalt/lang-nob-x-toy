@@ -1,15 +1,15 @@
 The Norwegian Bokmål morphology and tools
 ==========================================
 
-[![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-nob)](https://github.com/giellalt/lang-nob/issues)
-[![Build Status](https://github.com/giellalt/lang-nob/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-nob/actions)
-[![License](https://img.shields.io/github/license/giellalt/lang-nob)](https://raw.githubusercontent.com/giellalt/lang-nob/develop/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-nob-x-toy)](https://github.com/giellalt/lang-nob-x-toy/issues)
+[![Build Status](https://github.com/giellalt/lang-nob-x-toy/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-nob-x-toy/actions)
+[![License](https://img.shields.io/github/license/giellalt/lang-nob-x-toy)](https://raw.githubusercontent.com/giellalt/lang-nob-x-toy/main/LICENSE)
 
 This repository contains finite state source files for the Norwegian Bokmål language,
 for building morphological analysers, proofing tools
 and dictionaries. The data and implementation are licenced under GPLv3
 licence, also detailed in the
-[LICENCE](https://github.com/giellalt/lang-nob/blob/develop/LICENCE). The
+[LICENSE](https://github.com/giellalt/lang-nob-x-toy/blob/main/LICENSE). The
 authors named in the AUTHORS file are available to grant other licencing
 choices.
 
@@ -66,18 +66,18 @@ Downloading
 
 Using Git:
 ```
-git clone https://github.com/giellalt/lang-nob
+git clone https://github.com/giellalt/lang-nob-x-toy
 ```
 
 Using Subversion:
 ```
-svn checkout https://github.com/giellalt/lang-nob.git/trunk lang-nob
+svn checkout https://github.com/giellalt/lang-nob-x-toy.git/trunk lang-nob-x-toy
 ```
 
 Building and installation
 -------------------------
 
-[INSTALL](https://github.com/giellalt/lang-nob/blob/develop/INSTALL)
+[INSTALL](https://github.com/giellalt/lang-nob-x-toy/blob/main/INSTALL)
 describes the GNU build system in detail, but for most users it is the usual:
 
 ```sh
